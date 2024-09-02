@@ -72,8 +72,8 @@ function WA() {
 
         {/* icon */}
         {weatherData &&(
-          <div className='pl-11'>
-            <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="not ava" className="h-[100px] w-[100px]   text-transform scale-100 hover:scale-105 transition-transform duration-400 easse-in-out"/>
+          <div className='pl-[50px]'>
+            <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="not ava" className="h-[150px] w-[150px]   text-transform scale-100 hover:scale-105 transition-transform duration-400 easse-in-out"/>
             
         </div>
         ) }
